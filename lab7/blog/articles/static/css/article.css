@@ -1,0 +1,164 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-title a {
+    color: #ffffff;
+}
+
+.post-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fold-button{
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    text-align: right;
+}
+
+.article-header {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-header img, .header img {
+    width: 318px;
+    height: 58px;
+    margin-top: 20px;
+}
+
+.article-header a, .header a, .registration_header a {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.header_link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.header_link a {
+    color: #ffffff;
+}
+
+.header, .registration_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 850px;
+    margin: 80px auto;
+    background: rgba(155, 89, 182, 0.15);
+    padding: 20px 20px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ffffff;
+    background-color: rgba(255,255,255,0.2);
+    color: #ffffff;
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+form textarea {
+    min-height: 250px;
+    resize: vertical;
+}
+
+form input:focus,
+form textarea:focus {
+    background-color: rgba(255,255,255,0.4);
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #ffffff;
+}
+
+form input[type="submit"] {
+    display: block;
+
+    margin: 20px 0 0 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #1abc9c;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form input[type="submit"]:hover {
+    background: #1abc9c;
+    color: #ffffff;
+}
+
+.form-errors {
+    color: #ffdddd;
+    background: rgba(255,0,0,0.3);
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.registration_button input{
+    width: 200px;
+}
+
+.login_button input{
+    width: 100px;
+}
+
+.one-post.folded .article-author {
+    display: none;
+}
+
+.one-post.folded .article-created-date {
+    display: none;
+}
+
+.one-post.folded .article-text {
+    display: none;
+}
