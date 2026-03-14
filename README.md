@@ -1,0 +1,8 @@
+Зависимости проекта
+```
+asgiref==3.11.1
+Django==5.2.11
+sqlparse==0.5.5
+typing_extensions==4.15.0
+tzdata==2025.3
+```
